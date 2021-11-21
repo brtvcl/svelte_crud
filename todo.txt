@@ -1,0 +1,10 @@
+EditProductModal 'da ürüne ait resimleri görüntüle/sil/yeni resim yükle
+
+ ✔ DELETE /admin/product/:id içinde ürüne ait tüm resimleri sil ve tablodan verileri kaldır
+ ✔ DELETE /admin/file_delete/:file_id içinde resimi sil ve tablodan verileri kaldır
+ ✔ GET /products/ içinde ürünlerin yanında resimlere ait JSON verilerini embed et
+ - EditProductModal'da modaldan çıkış yapınca verileri değişmemiş hale geri getir. 
+	Resim silip cancel yapınca resimler geri gelsin. 
+	Obje reference ile alakalı problem var.
+ - JWT Login yap
+ - Products Detail sayfası yap
